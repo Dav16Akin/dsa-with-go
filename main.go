@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	datastructures "github.com/Dav16Akin/dsa-with-go/data-structures"
+)
 
 func main() {
-	fmt.Println("Lets gets Cracked")
+	datastructures.RunLists()
 }

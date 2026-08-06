@@ -1,9 +1,15 @@
 package main
 
 import (
-	datastructures "github.com/Dav16Akin/dsa-with-go/data-structures"
+	"fmt"
+
+	// datastructures "github.com/Dav16Akin/dsa-with-go/data-structures"
 )
 
 func main() {
-	datastructures.RunLists()
+	fmt.Println("--- DATA STRUCTURES WITH GOLANG ---")
+
+	// datastructures.RunLists()
+	// datastructures.RunTuples()
+	// datastructures.RunHeap()
 }

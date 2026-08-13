@@ -14,5 +14,6 @@ func main() {
 	// datastructures.RunTuples()
 	// datastructures.RunHeap()
 	// designpatterns.RunAdapterPattern()
-	designpatterns.RunBridgePattren()
+	// designpatterns.RunBridgePattren()
+	designpatterns.RunCompositePattern()
 }

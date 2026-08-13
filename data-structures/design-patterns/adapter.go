@@ -23,11 +23,11 @@ func (adaptee Adaptee) convert() {
 	fmt.Println("Adaptee convert method")
 }
 
+//ANOTHER EXAMPLE
+
 type Printer interface {
     Print([]byte)
 }
-
-//ANOTHER EXAMPLE
 
 type LegacyPrinter struct{}
 

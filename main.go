@@ -15,5 +15,6 @@ func main() {
 	// datastructures.RunHeap()
 	// designpatterns.RunAdapterPattern()
 	// designpatterns.RunBridgePattren()
-	designpatterns.RunCompositePattern()
+	// designpatterns.RunCompositePattern()
+	designpatterns.RunDecoratorPattern()
 }

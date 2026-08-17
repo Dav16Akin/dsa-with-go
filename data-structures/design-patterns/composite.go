@@ -45,6 +45,7 @@ func (branch *Branch) getLeafLets () []Leaflet {
 }
 
 func RunCompositePattern() {
+	fmt.Println("--> Composite Pattern")
 	var branch = &Branch{name: "branch 1"}
 	var leaf1 = Leaflet{name: "Leaf 1"}
 	var leaf2 = Leaflet{name: "Leaf 2"}

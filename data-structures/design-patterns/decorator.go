@@ -22,6 +22,7 @@ func (decorator *ProcessDecorator) process() {
 }
 
 func RunDecoratorPattern() {
+	fmt.Println("--> Decorator Pattern")
 	var process = &ProcessClass{}
 	var decorator = &ProcessDecorator{}
 	decorator.process()

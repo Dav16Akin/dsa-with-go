@@ -47,6 +47,7 @@ func (a LegacyAdapter) Print(data []byte) {
 
 // MAIN FUNCTION
 func RunAdapterPattern () {
+	fmt.Println("--> Adapter Pattern")
 	var processor IProcess = Adapter{}
 	processor.process()
 }

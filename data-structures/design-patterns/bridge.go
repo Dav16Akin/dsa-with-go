@@ -37,6 +37,7 @@ func (contour DrawContour) resizeFactor(factor int) {
 // MAIN FUNCTION
 
 func RunBridgePattren () {
+	fmt.Println("--> Bridge Pattern")
 	var x = [5]float32{1,2,3,4,5}
 	var y = [5]float32{1,2,3,4,5}
 

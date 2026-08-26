@@ -27,7 +27,7 @@ func (account *BankAccount) getAccountType() string {
 	return account.details.accountType
 }
 
-func RunPrivateClass() {
+func RunPrivateClassPattern() {
 	var account *BankAccount = &BankAccount{CustomerName: "John smith"}
 	account.setDetails("4532", "current")
 	jsonAccount, _ := json.Marshal(account)

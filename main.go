@@ -18,5 +18,6 @@ func main() {
 	// designpatterns.RunCompositePattern()
 	// designpatterns.RunDecoratorPattern()
 	// designpatterns.RunFacadePatterrn()
-	designpatterns.RunFlyWeight()
+	// designpatterns.RunFlyWeight()
+	designpatterns.RunPrivateClass()
 }

@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 
-	complexities "github.com/Dav16Akin/dsa-with-go/data-structures/complexities"
+	"github.com/Dav16Akin/dsa-with-go/data-structures/algorithms"
+	// complexities "github.com/Dav16Akin/dsa-with-go/data-structures/complexities"
 	// designpatterns "github.com/Dav16Akin/dsa-with-go/data-structures/design-patterns"
 	// datastructures "github.com/Dav16Akin/dsa-with-go/data-structures"
 )
@@ -27,5 +28,7 @@ func main() {
 	// complexities.RunLinear()
 	// complexities.RunQuadratic()
 	// complexities.CubicComplexity()
-	complexities.RunLogarithmic()
+	// complexities.RunLogarithmic()
+
+	algorithms.RunBruteForce()
 }

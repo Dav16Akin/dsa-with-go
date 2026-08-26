@@ -3,7 +3,7 @@ package designpatterns
 import "fmt"
 
 type Account struct {
-	id          string
+	id          int32
 	accountType string
 }
 
@@ -49,8 +49,8 @@ func (transaction *Transaction) create(srcAccountId string, destAccountId string
 }
 
 type BranchManagerFacade struct {
-	account *Account
-	customer *Customer
+	account     *Account
+	customer    *Customer
 	transaction *Transaction
 }
 

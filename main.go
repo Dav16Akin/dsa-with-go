@@ -17,5 +17,6 @@ func main() {
 	// designpatterns.RunBridgePattren()
 	// designpatterns.RunCompositePattern()
 	// designpatterns.RunDecoratorPattern()
-	designpatterns.RunFacadePatterrn()
+	// designpatterns.RunFacadePatterrn()
+	designpatterns.RunFlyWeight()
 }

@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 
-	designpatterns "github.com/Dav16Akin/dsa-with-go/data-structures/design-patterns"
+	complexities "github.com/Dav16Akin/dsa-with-go/data-structures/complexities"
+	// designpatterns "github.com/Dav16Akin/dsa-with-go/data-structures/design-patterns"
 	// datastructures "github.com/Dav16Akin/dsa-with-go/data-structures"
 )
 
@@ -13,6 +14,7 @@ func main() {
 	// datastructures.RunLists()
 	// datastructures.RunTuples()
 	// datastructures.RunHeap()
+
 	// designpatterns.RunAdapterPattern()
 	// designpatterns.RunBridgePattren()
 	// designpatterns.RunCompositePattern()
@@ -20,5 +22,10 @@ func main() {
 	// designpatterns.RunFacadePatterrn()
 	// designpatterns.RunFlyWeight()
 	// designpatterns.RunPrivateClassPattern()
-	designpatterns.RunProxyPattern()
+	// designpatterns.RunProxyPattern()
+
+	// complexities.RunLinear()
+	// complexities.RunQuadratic()
+	// complexities.CubicComplexity()
+	complexities.RunLogarithmic()
 }

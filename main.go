@@ -30,5 +30,7 @@ func main() {
 	// complexities.CubicComplexity()
 	// complexities.RunLogarithmic()
 
-	algorithms.RunBruteForce()
+	// algorithms.RunBruteForce()
+	// algorithms.RunDivideAndConquer()
+	algorithms.RunBackTracking()
 }

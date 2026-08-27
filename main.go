@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/Dav16Akin/dsa-with-go/data-structures/algorithms"
+	// algorithms "github.com/Dav16Akin/dsa-with-go/data-structures/algorithms"
 	// complexities "github.com/Dav16Akin/dsa-with-go/data-structures/complexities"
 	// designpatterns "github.com/Dav16Akin/dsa-with-go/data-structures/design-patterns"
-	// datastructures "github.com/Dav16Akin/dsa-with-go/data-structures"
+	datastructures "github.com/Dav16Akin/dsa-with-go/data-structures"
 )
 
 func main() {
@@ -15,6 +15,8 @@ func main() {
 	// datastructures.RunLists()
 	// datastructures.RunTuples()
 	// datastructures.RunHeap()
+	// datastructures.RunSlice()
+	datastructures.RunTwoDimentionalSlices()
 
 	// designpatterns.RunAdapterPattern()
 	// designpatterns.RunBridgePattren()
@@ -32,5 +34,6 @@ func main() {
 
 	// algorithms.RunBruteForce()
 	// algorithms.RunDivideAndConquer()
-	algorithms.RunBackTracking()
+	// algorithms.RunBackTracking()
+	// algorithms.RunAlgorithmExcersise()
 }
